@@ -6,7 +6,7 @@ file and `requirements.txt` which contains only `flask` and its dependencies.
 The `app` folder is where all of the source codes will be placed. Do not write
 any code outside this folder.
 
-### Managing the Environment and Dependencies
+## Managing the Environment and Dependencies
 To start working, first install `virtualenv` with pip.
 ```bash
 pip install virtualenv
@@ -47,7 +47,7 @@ Be careful not to update `requirements.txt` outside the virtual environment,
 since every python package you have installed on your computer will be added
 to the requirements of the project.
 
-### Running the Service
+## Running the Service
 
 After installing `flask` and its dependencies from `requirements.txt` file,
 you can go to the `app` folder and run the simple **Hello, World!** app with
@@ -64,7 +64,7 @@ repo will be stored in this file. Be aware that `config.py` is ignored by the
 also reflected in the `config.py.sample` so it is crystal clear what should be
 added to `config.py` to run the service.
 
-### Further Questions?
+## Further Questions?
 If you have questions regarding how to create a new service, feel free to send
 an email to your manager [smmousavisp@gmail.com](smmousavisp@gmail.com). I
 will do my best to respond in time.
