@@ -1,6 +1,6 @@
 # Base Repository
 Dear employees, this is a base repo created for you to use it in the different
-services you develop. The structure is simple, there is a `.gitigonre` file to
+services you develop. The structure is simple, there is a `.gitignore` file to
 avoid adding local files to the repositories, the GPLv3 License in the LICENSE
 file and `requirements.txt` which contains only `flask` and its dependencies.
 The `app` folder is where all of the source codes will be placed. Do not write
