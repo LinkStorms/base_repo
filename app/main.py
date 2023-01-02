@@ -1,5 +1,7 @@
 from flask import Flask
 
+from settings import HOST, PORT
+
 app = Flask(__name__)
 
 @app.route("/")
@@ -8,4 +10,4 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    app.run(host="localhost", port=5000, debug=True)
+    app.run(host=HOST, port=PORT, debug=True)
