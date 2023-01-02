@@ -53,7 +53,7 @@ After installing `flask` and its dependencies from `requirements.txt` file,
 you can go to the `app` folder and run the simple **Hello, World!** app with
 this command.
 ```
-flask --app main --debug run
+python main.py
 ```
 
 There is also a `config.py.sample` file in the `app` directory. This is
